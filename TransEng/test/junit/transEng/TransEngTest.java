@@ -20,6 +20,13 @@ public class TransEngTest {
 		String actual = trans.translateEng(13);
 		assertThat(actual,is(expected));
 	}
+	@Test
+	public void one‚ªŽæ“¾‚Å‚«‚é() {		
+		TransEng trans = new TransEng();
+		String expected = "one";
+		String actual = trans.translateEng(1);
+		assertThat(actual,is(expected));
+	}
 
 
 }
