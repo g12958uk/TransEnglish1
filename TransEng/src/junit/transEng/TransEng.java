@@ -51,7 +51,15 @@ public class TransEng {
 		    	else  return"nineteen";
 		    }
 		    static String trans3(int n){
-		    	return "";
+		    	if(n==20) return"twenty";
+		    	else if(n==30) return "thirty";
+		    	else if(n==40) return"fourty";
+		    	else if(n==50) return"fifty";
+		    	else if(n==60) return"sixty";
+		    	else if(n==70) return"seventy";
+		    	else if(n==80) return"eighty";
+		    	else if(n==90) return"ninety";
+		    	else  return"one hundred";
 		    }
 		}
 
